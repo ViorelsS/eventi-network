@@ -8,4 +8,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Database
 
-**Postgres on**:neon.tech
+**Postgres on**: https://neon.tech/
+
+## On the .env file you have to put:
+
+# 1. DATABASE_URL and DIRECT_URL from neon
+
+# 2. AUTH_SECRET: a random string
