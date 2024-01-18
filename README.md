@@ -66,7 +66,8 @@ openssl rand -base64 32
 These strings are provided by Github : Settings > Developer settings > OAuth Apps > New OAuth App. In the homepage url put: http://localhost:3000. In the Authorization callback URL put: http://localhost:3000/api/auth/callback/github
 
 ```bash
-GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
 ```
 
 These strings are provided by Google Cloud Services
