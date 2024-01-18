@@ -103,7 +103,7 @@ export const RegisterForm = () => {
                     <Input
                       {...field}
                       disabled={isPending}
-                      placeholder="123456"
+                      placeholder="******"
                       type="password"
                     />
                   </FormControl>
