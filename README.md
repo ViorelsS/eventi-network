@@ -10,6 +10,28 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 **Postgres on**: https://neon.tech/
 
+# To generate a new schema
+
+```bash
+npx prisma generate
+```
+
+# To update the schema on the db
+
+```bash
+npx prisma db push
+```
+
+Sometimes the database will be reset.
+
+# To reset the database
+
+```bash
+npx prisma migrate reset
+npx prisma generate
+npx prisma db push
+```
+
 ## Email sender
 
 **Resend**: https://resend.com/
@@ -23,3 +45,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 # 3. GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET
 
 # 4. RESEND_API_KEY
+
+## See the data in the database
+
+```bash
+npx prisma studio
+```
