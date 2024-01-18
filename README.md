@@ -38,11 +38,11 @@ npx prisma db push
 npx prisma studio
 ```
 
-### Email sender
+## Email sender
 
 **Resend**: https://resend.com/
 
-### On the .env file you have to put:
+## .env file
 
 #### 1. DATABASE_URL and DIRECT_URL from neon
 
