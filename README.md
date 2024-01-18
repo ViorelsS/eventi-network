@@ -44,10 +44,40 @@ npx prisma studio
 
 ## .env file
 
-#### 1. DATABASE_URL and DIRECT_URL from neon
+These strings are provided by neon
 
-#### 2. AUTH_SECRET: a random string
+```bash
+DATABASE_URL=
+DIRECT_URL=
+```
 
-#### 3. GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET
+This is a random string
 
-#### 4. RESEND_API_KEY
+```bash
+AUTH_SECRET=
+```
+
+You can create one with this command on your shell:
+
+```bash
+openssl rand -base64 32
+```
+
+These strings are provided by Github : Settings > Developer settings > OAuth Apps > New OAuth App. In the homepage url put: http://localhost:3000. In the Authorization callback URL put: http://localhost:3000/api/auth/callback/github
+
+```bash
+GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET
+```
+
+These strings are provided by Google Cloud Services
+
+```bash
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+```
+
+This string is provided by Resend
+
+```bash
+RESEND_API_KEY="..."
+```
