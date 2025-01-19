@@ -82,5 +82,3 @@ This string is provided by Resend
 ```bash
 RESEND_API_KEY="..."
 ```
-
-# I used register.it for the domain
